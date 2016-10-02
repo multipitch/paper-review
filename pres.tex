@@ -1,4 +1,6 @@
 \documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
 \usetheme{Boadilla}
 
 \title{MIS40530 Reading Assignment}
@@ -9,43 +11,78 @@
 
 \begin{document}
 
+    \begin{frame}
+        \titlepage
+    \end{frame}
 
-\begin{frame}
-\titlepage
-\end{frame}
+    \begin{frame}{Introduction and Context}
+        The paper has two main aims:
+        \begin{enumerate}
+            \item Provide an overview of ant colony optimisation as a field and detail current research trends
+            \item Introduce the \emph{Ant Colony Optimization} (ACO) meta-heuristic
+        \end{enumerate}
+    \end{frame}
 
-\begin{frame}{Introduction and Context}
-The body of the frame.
-\begin{enumerate}
-   \item Item1
-   \item Item2
-\end{enumerate}
-\end{frame}
+    \begin{frame}{Gap and Research Aim}
+        \begin{itemize}
+            \item No clear gap is identified.
+            \item The authors hope that the ACO meta-heuristic can be used to characterise ant colony algorithms and thus aid future research.
+        \end{itemize}
+    \end{frame}
 
-\begin{frame}{Gap}
-The body of the frame.
-\end{frame}
+    \begin{frame}{Methodology}
+        \begin{enumerate}
+            \item The parameters governing a generalised problem and solution are defined
+            \item A set of rules are defined, governing the behaviour of the ants
+            \item An implementation is provided, in pseudocode, of the ACO meta-heuristic
+        \end{enumerate}
+    \end{frame}
 
-\begin{frame}{Research Aim}
-The body of the frame.
-\end{frame}
+    \begin{frame}{Results}
+        As a proof-of-concept, details are given on the application of the ACO meta-heuristic to some discrete optimisation problems:
+        \begin{itemize}
+            \item The traveling salesman problem
+            \item The problem of routing in communications networks
+        \end{itemize}
+        \vspace{0.125in}
+        The success (of others) in using ant colony algorithms to solve discrete optimisation problems is presented:
+        \begin{itemize}
+            \item Fast (comparable in speed to other state-of-the-art methods)
+            \begin{itemize}
+                \item The traveling salesman problem
+                \item The quadratic assignment problem
+                \item The sequential ordering problem
+            \end{itemize}
+            \item Slower than other methods
+            \begin{itemize}
+                \item The job scheduling problem (slower than other methods)
+            \end{itemize}
+        \end{itemize}
+    \end{frame}
 
-\begin{frame}{Methodology}
-The body of the frame.
-\end{frame}
+    \begin{frame}{Analysis and Signifiance}
+        \begin{itemize}
+            \item No quantitative results are presented
+            \item The application examples show qualitatively that the ACO meta-heuristic can be applied to various problems
+        \end{itemize}        
+    \end{frame}
 
-\begin{frame}{Results}
-The body of the frame.
-\end{frame}
-
-\begin{frame}{Analysis}
-The body of the frame.
-\end{frame}
-
-\begin{frame}{Significance}
-The body of the frame.
-\end{frame}
-
+    \begin{frame}{Significance}
+        \begin{itemize}
+            \item The paper was published in conference proceedings
+            \item It has 348 citations to date (\href{http://ieeexplore.ieee.org/document/782657/   }{IEEE Xplore})
+            \item A more through paper was published in the same year in the the journal ``Artificial Life'', which has 3135 citations to date on Google Scholar
+        \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{Conclusion}
+        \begin{itemize}
+            \item The paper was concise and well written
+            \item The examples highlight the application of the algorithm
+            \item The effectiveness of ant optimisation methods by others cannot be seen as an endorsement of the ACO meta-heuristic
+            \item The level of citations indicate that the heuristic did prove to be of use in categorising ant colony algorithms
+        \end{itemize}
+    \end{frame}
 \end{document}
 
 
